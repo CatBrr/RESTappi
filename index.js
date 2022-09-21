@@ -9,6 +9,7 @@ const widgets = [
     { id: 1, name: "Cizzbor", price: 29.99 },
     { id: 2, name: "Woowo", price: 26.99 },
     { id: 3, name: "Crazlinger", price: 59.99 },
+    { id: 4, name: "daria", price: 0 },
 ]
 //defineerivad lõpp-punkti GET /widgets päringule, mis saadab vastusena terve widgets massiivi (mis on defineeritud ridadel 8-12)
 app.get('/widgets', (req, res) => {
